@@ -11,7 +11,7 @@ public class Flock : MonoBehaviour
 
     [Range(10, 500)]
     public int startingCount = 250;
-    const float agentDensity = 0.08f;
+    const float agentDensity = 0.04f;
 
     [Range(1f, 100f)]
     public float driveFactor = 10f;
@@ -53,7 +53,7 @@ public class Flock : MonoBehaviour
         {
             List<Transform> context = GetNearbyObjects(agent);
             //debug func
-            //agent.GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.red, context.Count / 6f); ;
+            //agent.GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.black, context.Count / 20f); ;
             
             Vector2 move = behaviour.CalculateMove(agent, context, this);
             move *= driveFactor;

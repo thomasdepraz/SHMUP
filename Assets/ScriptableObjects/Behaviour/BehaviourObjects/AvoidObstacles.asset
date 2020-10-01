@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: AvoidObstacles
   m_EditorClassIdentifier: 
   filter: {fileID: 11400000, guid: 6dfa3440016eb074390c6feb570da1b0, type: 2}
+  avoidanceMultiplier: 30

@@ -99,8 +99,9 @@ public class CompositeBehaviourEditor : Editor
             FlockBehaviour[] newBehaviors = new FlockBehaviour[oldCount - 1];
             float[] newWeights = new float[oldCount - 1];
 
-            for (int i = 0; i < oldCount; i++)
+            for (int i = 0; i < oldCount - 1; i++)
             {
+                
                 newBehaviors[i] = cb.behaviors[i];    
                 newWeights[i] = cb.weights[i];
             }

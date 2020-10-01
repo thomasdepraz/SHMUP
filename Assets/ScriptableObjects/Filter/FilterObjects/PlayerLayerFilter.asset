@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecabf9729820d0b489e8059fd53e211f, type: 3}
-  m_Name: StayinR15
+  m_Script: {fileID: 11500000, guid: f3df453e3f3596e4788056b9c5432a29, type: 3}
+  m_Name: PlayerLayerFilter
   m_EditorClassIdentifier: 
-  center: {x: 0, y: 0}
-  radius: 15
+  mask:
+    serializedVersion: 2
+    m_Bits: 512
