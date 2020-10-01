@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff0dccb8bd244b42bce53c14f8438be, type: 3}
   m_Name: AroundPlayerCohesion
   m_EditorClassIdentifier: 
-  filter: {fileID: 0}
+  filter: {fileID: 11400000, guid: 7e12c75c1a374f3418ec797024ee01a1, type: 2}
   agentSmoothTime: 0.5

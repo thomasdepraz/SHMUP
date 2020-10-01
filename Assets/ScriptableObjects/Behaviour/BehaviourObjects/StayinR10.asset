@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecabf9729820d0b489e8059fd53e211f, type: 3}
-  m_Name: StayinR15
+  m_Name: StayinR10
   m_EditorClassIdentifier: 
   center: {x: 0, y: 0}
   radius: 10
